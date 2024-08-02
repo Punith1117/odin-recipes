@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card {
+    background: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+a {
+    background: honeydew;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+.heading, .items {
+    padding: 5px;
+}
+
+.heading {
+    background: rgb(255, 157, 58);
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.items {
+    background: rgb(98, 143, 98);
+    border-radius: 7px;
+}
